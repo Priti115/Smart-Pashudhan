@@ -1,0 +1,7 @@
+#Thu Sep 25 20:57:47 IST 2025
+base.0=D\:\\warp cattle breed app\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+base.1=D\:\\warp cattle breed app\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

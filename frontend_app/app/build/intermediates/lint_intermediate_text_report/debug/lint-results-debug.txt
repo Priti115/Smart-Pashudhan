@@ -1,0 +1,448 @@
+D:\warp cattle breed app\app\build.gradle:16: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk 34
+        ~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+D:\warp cattle breed app\app\build.gradle:54: Warning: A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.17.0 [GradleDependency]
+    implementation 'androidx.core:core-ktx:1.12.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:55: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1 [GradleDependency]
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:56: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.7.0 is available: 2.9.4 [GradleDependency]
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:57: Warning: A newer version of androidx.activity:activity-compose than 1.8.2 is available: 1.11.0 [GradleDependency]
+    implementation 'androidx.activity:activity-compose:1.8.2'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:60: Warning: A newer version of androidx.compose:compose-bom than 2023.10.01 is available: 2025.09.01 [GradleDependency]
+    implementation platform('androidx.compose:compose-bom:2023.10.01')
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:68: Warning: A newer version of androidx.navigation:navigation-compose than 2.7.5 is available: 2.9.5 [GradleDependency]
+    implementation 'androidx.navigation:navigation-compose:2.7.5'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:71: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.7.0 is available: 2.9.4 [GradleDependency]
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:72: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.7.0 is available: 2.9.4 [GradleDependency]
+    implementation 'androidx.lifecycle:lifecycle-runtime-compose:2.7.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:75: Warning: A newer version of androidx.room:room-runtime than 2.6.0 is available: 2.8.1 [GradleDependency]
+    implementation 'androidx.room:room-runtime:2.6.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:76: Warning: A newer version of androidx.room:room-ktx than 2.6.0 is available: 2.8.1 [GradleDependency]
+    implementation 'androidx.room:room-ktx:2.6.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:77: Warning: A newer version of androidx.room:room-compiler than 2.6.0 is available: 2.8.1 [GradleDependency]
+    ksp 'androidx.room:room-compiler:2.6.0'
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:80: Warning: A newer version of androidx.camera:camera-core than 1.3.1 is available: 1.5.0 [GradleDependency]
+    implementation 'androidx.camera:camera-core:1.3.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:81: Warning: A newer version of androidx.camera:camera-camera2 than 1.3.1 is available: 1.5.0 [GradleDependency]
+    implementation 'androidx.camera:camera-camera2:1.3.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:82: Warning: A newer version of androidx.camera:camera-lifecycle than 1.3.1 is available: 1.5.0 [GradleDependency]
+    implementation 'androidx.camera:camera-lifecycle:1.3.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:83: Warning: A newer version of androidx.camera:camera-video than 1.3.1 is available: 1.5.0 [GradleDependency]
+    implementation 'androidx.camera:camera-video:1.3.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:84: Warning: A newer version of androidx.camera:camera-view than 1.3.1 is available: 1.5.0 [GradleDependency]
+    implementation 'androidx.camera:camera-view:1.3.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:85: Warning: A newer version of androidx.camera:camera-extensions than 1.3.1 is available: 1.5.0 [GradleDependency]
+    implementation 'androidx.camera:camera-extensions:1.3.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:88: Warning: A newer version of com.google.accompanist:accompanist-permissions than 0.32.0 is available: 0.34.0 [GradleDependency]
+    implementation 'com.google.accompanist:accompanist-permissions:0.32.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:94: Warning: A newer version of com.google.code.gson:gson than 2.10.1 is available: 2.11.0 [GradleDependency]
+    implementation 'com.google.code.gson:gson:2.10.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:101: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:102: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0 [GradleDependency]
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\build.gradle:103: Warning: A newer version of androidx.compose:compose-bom than 2023.10.01 is available: 2025.09.01 [GradleDependency]
+    androidTestImplementation platform('androidx.compose:compose-bom:2023.10.01')
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+D:\warp cattle breed app\app\src\main\java\com\cattlebreed\app\data\auth\AuthRepository.kt:223: Warning: Using getString to get device identifiers is not recommended [HardwareIds]
+        val deviceId = Settings.Secure.getString(context.contentResolver, Settings.Secure.ANDROID_ID)
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardwareIds":
+   Using these device identifiers is not recommended other than for high value
+   fraud prevention and advanced telephony use-cases. For advertising
+   use-cases, use AdvertisingIdClient$Info#getId and for analytics, use
+   InstanceId#getId.
+
+   https://developer.android.com/training/articles/user-data-ids.html
+
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:7: Warning: The resource R.string.nav_home appears to be unused [UnusedResources]
+    <string name="nav_home">Home</string>
+            ~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:8: Warning: The resource R.string.nav_capture appears to be unused [UnusedResources]
+    <string name="nav_capture">Capture</string>
+            ~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:9: Warning: The resource R.string.nav_history appears to be unused [UnusedResources]
+    <string name="nav_history">History</string>
+            ~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:10: Warning: The resource R.string.nav_export appears to be unused [UnusedResources]
+    <string name="nav_export">Export</string>
+            ~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:11: Warning: The resource R.string.nav_back appears to be unused [UnusedResources]
+    <string name="nav_back">Back</string>
+            ~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:14: Warning: The resource R.string.home_welcome_title appears to be unused [UnusedResources]
+    <string name="home_welcome_title">Welcome to Cattle Breed Assessment</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:15: Warning: The resource R.string.home_welcome_subtitle appears to be unused [UnusedResources]
+    <string name="home_welcome_subtitle">Capture animal photos and analyze breed characteristics with AI-powered insights</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:16: Warning: The resource R.string.home_capture_title appears to be unused [UnusedResources]
+    <string name="home_capture_title">Capture Animal Photo</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:17: Warning: The resource R.string.home_capture_desc appears to be unused [UnusedResources]
+    <string name="home_capture_desc">Take a photo of an animal for breed assessment</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:18: Warning: The resource R.string.home_history_title appears to be unused [UnusedResources]
+    <string name="home_history_title">View History</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:19: Warning: The resource R.string.home_history_desc appears to be unused [UnusedResources]
+    <string name="home_history_desc">Browse previously captured animal records</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:20: Warning: The resource R.string.home_export_title appears to be unused [UnusedResources]
+    <string name="home_export_title">Export Data</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:21: Warning: The resource R.string.home_export_desc appears to be unused [UnusedResources]
+    <string name="home_export_desc">Export animal records to JSON, CSV, or PDF</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:24: Warning: The resource R.string.capture_title appears to be unused [UnusedResources]
+    <string name="capture_title">Capture Animal Photo</string>
+            ~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:25: Warning: The resource R.string.capture_instruction appears to be unused [UnusedResources]
+    <string name="capture_instruction">Position the animal in the frame and tap to capture</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:26: Warning: The resource R.string.capture_button appears to be unused [UnusedResources]
+    <string name="capture_button">Capture Photo</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:27: Warning: The resource R.string.capture_success_title appears to be unused [UnusedResources]
+    <string name="capture_success_title">Photo Captured!</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:28: Warning: The resource R.string.capture_success_message appears to be unused [UnusedResources]
+    <string name="capture_success_message">Animal photo has been captured and record saved successfully.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:29: Warning: The resource R.string.capture_view_records appears to be unused [UnusedResources]
+    <string name="capture_view_records">View Records</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:30: Warning: The resource R.string.capture_take_another appears to be unused [UnusedResources]
+    <string name="capture_take_another">Take Another</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:33: Warning: The resource R.string.history_title appears to be unused [UnusedResources]
+    <string name="history_title">Animal Records History</string>
+            ~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:34: Warning: The resource R.string.history_empty_title appears to be unused [UnusedResources]
+    <string name="history_empty_title">No Animal Records Yet</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:35: Warning: The resource R.string.history_empty_message appears to be unused [UnusedResources]
+    <string name="history_empty_message">Start by capturing your first animal photo using the camera feature.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:38: Warning: The resource R.string.detail_title appears to be unused [UnusedResources]
+    <string name="detail_title">Animal Details</string>
+            ~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:39: Warning: The resource R.string.detail_animal_info appears to be unused [UnusedResources]
+    <string name="detail_animal_info">Animal Information</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:40: Warning: The resource R.string.detail_animal_id appears to be unused [UnusedResources]
+    <string name="detail_animal_id">Animal ID</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:41: Warning: The resource R.string.detail_date_captured appears to be unused [UnusedResources]
+    <string name="detail_date_captured">Date Captured</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:42: Warning: The resource R.string.detail_image_path appears to be unused [UnusedResources]
+    <string name="detail_image_path">Image Path</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:43: Warning: The resource R.string.detail_measurements appears to be unused [UnusedResources]
+    <string name="detail_measurements">Body Measurements</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:44: Warning: The resource R.string.detail_body_length appears to be unused [UnusedResources]
+    <string name="detail_body_length">Body Length</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:45: Warning: The resource R.string.detail_height appears to be unused [UnusedResources]
+    <string name="detail_height">Height</string>
+            ~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:46: Warning: The resource R.string.detail_chest_width appears to be unused [UnusedResources]
+    <string name="detail_chest_width">Chest Width</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:47: Warning: The resource R.string.detail_rump_angle appears to be unused [UnusedResources]
+    <string name="detail_rump_angle">Rump Angle</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:48: Warning: The resource R.string.detail_analysis appears to be unused [UnusedResources]
+    <string name="detail_analysis">AI Analysis Results</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:49: Warning: The resource R.string.detail_atc_score appears to be unused [UnusedResources]
+    <string name="detail_atc_score">ATC Score</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:50: Warning: The resource R.string.detail_sync_status appears to be unused [UnusedResources]
+    <string name="detail_sync_status">Sync Status</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:51: Warning: The resource R.string.detail_synced appears to be unused [UnusedResources]
+    <string name="detail_synced">Synced to Cloud</string>
+            ~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:52: Warning: The resource R.string.detail_not_synced appears to be unused [UnusedResources]
+    <string name="detail_not_synced">Not Synced</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:53: Warning: The resource R.string.detail_synced_desc appears to be unused [UnusedResources]
+    <string name="detail_synced_desc">This record has been uploaded to the cloud server</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:54: Warning: The resource R.string.detail_not_synced_desc appears to be unused [UnusedResources]
+    <string name="detail_not_synced_desc">This record is stored locally only</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:55: Warning: The resource R.string.detail_delete_record appears to be unused [UnusedResources]
+    <string name="detail_delete_record">Delete Record</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:56: Warning: The resource R.string.detail_delete_title appears to be unused [UnusedResources]
+    <string name="detail_delete_title">Delete Record</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:57: Warning: The resource R.string.detail_delete_message appears to be unused [UnusedResources]
+    <string name="detail_delete_message">Are you sure you want to delete this animal record? This action cannot be undone.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:58: Warning: The resource R.string.detail_delete_confirm appears to be unused [UnusedResources]
+    <string name="detail_delete_confirm">Delete</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:59: Warning: The resource R.string.detail_loading appears to be unused [UnusedResources]
+    <string name="detail_loading">Loading animal details...</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:62: Warning: The resource R.string.export_title appears to be unused [UnusedResources]
+    <string name="export_title">Export Data</string>
+            ~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:63: Warning: The resource R.string.export_header_title appears to be unused [UnusedResources]
+    <string name="export_header_title">Export Animal Records</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:64: Warning: The resource R.string.export_header_subtitle appears to be unused [UnusedResources]
+    <string name="export_header_subtitle">Choose your preferred export format to save your animal data locally</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:65: Warning: The resource R.string.export_json_title appears to be unused [UnusedResources]
+    <string name="export_json_title">Export to JSON</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:66: Warning: The resource R.string.export_json_desc appears to be unused [UnusedResources]
+    <string name="export_json_desc">Export all animal records to a structured JSON file format. Ideal for data backup and integration with other systems.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:67: Warning: The resource R.string.export_csv_title appears to be unused [UnusedResources]
+    <string name="export_csv_title">Export to CSV</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:68: Warning: The resource R.string.export_csv_desc appears to be unused [UnusedResources]
+    <string name="export_csv_desc">Export all animal records to a comma-separated values file. Perfect for spreadsheet applications and data analysis.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:69: Warning: The resource R.string.export_pdf_title appears to be unused [UnusedResources]
+    <string name="export_pdf_title">Export to PDF</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:70: Warning: The resource R.string.export_pdf_desc appears to be unused [UnusedResources]
+    <string name="export_pdf_desc">Export all animal records to a bilingual (Hindi-English) PDF report. Easy for farmers to read and share.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:71: Warning: The resource R.string.export_json_button appears to be unused [UnusedResources]
+    <string name="export_json_button">Export JSON</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:72: Warning: The resource R.string.export_csv_button appears to be unused [UnusedResources]
+    <string name="export_csv_button">Export CSV</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:73: Warning: The resource R.string.export_pdf_button appears to be unused [UnusedResources]
+    <string name="export_pdf_button">Export PDF</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:74: Warning: The resource R.string.export_exporting appears to be unused [UnusedResources]
+    <string name="export_exporting">Exporting...</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:75: Warning: The resource R.string.export_complete_title appears to be unused [UnusedResources]
+    <string name="export_complete_title">Export Complete</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:76: Warning: The resource R.string.export_recent_files appears to be unused [UnusedResources]
+    <string name="export_recent_files">Recently Exported Files</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:77: Warning: The resource R.string.export_clear_files appears to be unused [UnusedResources]
+    <string name="export_clear_files">Clear</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:78: Warning: The resource R.string.export_info_title appears to be unused [UnusedResources]
+    <string name="export_info_title">Export Information</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:79: Warning: The resource R.string.export_info_content appears to be unused [UnusedResources]
+    <string name="export_info_content">• Exported files are saved to your device\'s local storage\n• JSON format preserves all data types and structure\n• CSV format is compatible with Excel and other spreadsheet apps\n• PDF format is bilingual and farmer-friendly\n• Files include all animal records, measurements, and metadata</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:82: Warning: The resource R.string.ok appears to be unused [UnusedResources]
+    <string name="ok">OK</string>
+            ~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:83: Warning: The resource R.string.cancel appears to be unused [UnusedResources]
+    <string name="cancel">Cancel</string>
+            ~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:84: Warning: The resource R.string.delete appears to be unused [UnusedResources]
+    <string name="delete">Delete</string>
+            ~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:85: Warning: The resource R.string.save appears to be unused [UnusedResources]
+    <string name="save">Save</string>
+            ~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:86: Warning: The resource R.string.loading appears to be unused [UnusedResources]
+    <string name="loading">Loading...</string>
+            ~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:87: Warning: The resource R.string.error appears to be unused [UnusedResources]
+    <string name="error">Error</string>
+            ~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:88: Warning: The resource R.string.success appears to be unused [UnusedResources]
+    <string name="success">Success</string>
+            ~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:89: Warning: The resource R.string.retry appears to be unused [UnusedResources]
+    <string name="retry">Retry</string>
+            ~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:90: Warning: The resource R.string.close appears to be unused [UnusedResources]
+    <string name="close">Close</string>
+            ~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:93: Warning: The resource R.string.unit_cm appears to be unused [UnusedResources]
+    <string name="unit_cm">cm</string>
+            ~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:94: Warning: The resource R.string.unit_degrees appears to be unused [UnusedResources]
+    <string name="unit_degrees">°</string>
+            ~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:97: Warning: The resource R.string.permission_camera_title appears to be unused [UnusedResources]
+    <string name="permission_camera_title">Camera Permission Required</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:98: Warning: The resource R.string.permission_camera_message appears to be unused [UnusedResources]
+    <string name="permission_camera_message">To capture animal photos, we need access to your camera. This permission is essential for the app\'s core functionality.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:99: Warning: The resource R.string.permission_camera_grant appears to be unused [UnusedResources]
+    <string name="permission_camera_grant">Grant Camera Permission</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:100: Warning: The resource R.string.permission_camera_denied appears to be unused [UnusedResources]
+    <string name="permission_camera_denied">Camera Permission Denied</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:101: Warning: The resource R.string.permission_camera_denied_message appears to be unused [UnusedResources]
+    <string name="permission_camera_denied_message">Camera access has been denied. To use this feature, please enable camera permissions in your device settings.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:104: Warning: The resource R.string.auth_phone_title appears to be unused [UnusedResources]
+    <string name="auth_phone_title">Enter Phone Number</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:105: Warning: The resource R.string.auth_phone_hint appears to be unused [UnusedResources]
+    <string name="auth_phone_hint">Phone Number</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:106: Warning: The resource R.string.auth_send_otp appears to be unused [UnusedResources]
+    <string name="auth_send_otp">Send OTP</string>
+            ~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:107: Warning: The resource R.string.auth_otp_title appears to be unused [UnusedResources]
+    <string name="auth_otp_title">OTP Verification</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:108: Warning: The resource R.string.auth_otp_message appears to be unused [UnusedResources]
+    <string name="auth_otp_message">Please enter the OTP sent to %s</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:109: Warning: The resource R.string.auth_otp_hint appears to be unused [UnusedResources]
+    <string name="auth_otp_hint">Enter OTP</string>
+            ~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:110: Warning: The resource R.string.auth_verify_otp appears to be unused [UnusedResources]
+    <string name="auth_verify_otp">Verify OTP</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:111: Warning: The resource R.string.auth_resend_otp appears to be unused [UnusedResources]
+    <string name="auth_resend_otp">Resend OTP</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:112: Warning: The resource R.string.auth_invalid_phone appears to be unused [UnusedResources]
+    <string name="auth_invalid_phone">Invalid phone number</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:113: Warning: The resource R.string.auth_invalid_otp appears to be unused [UnusedResources]
+    <string name="auth_invalid_otp">Invalid OTP</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:114: Warning: The resource R.string.auth_otp_sent appears to be unused [UnusedResources]
+    <string name="auth_otp_sent">OTP sent</string>
+            ~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:115: Warning: The resource R.string.auth_verification_failed appears to be unused [UnusedResources]
+    <string name="auth_verification_failed">Verification failed</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:116: Warning: The resource R.string.auth_welcome_back appears to be unused [UnusedResources]
+    <string name="auth_welcome_back">Welcome back</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\themes.xml:20: Warning: The resource R.style.Theme_CattleBreedApp_NoActionBar appears to be unused [UnusedResources]
+    <style name="Theme.CattleBreedApp.NoActionBar" parent="Theme.CattleBreedApp">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+D:\warp cattle breed app\app\src\main\res\values-hi\strings.xml:59: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="detail_loading">पशु विवरण लोड हो रहा है...</string>
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:59: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="detail_loading">Loading animal details...</string>
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values-hi\strings.xml:74: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="export_exporting">निर्यात हो रहा है...</string>
+                                    ~~~~~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:74: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="export_exporting">Exporting...</string>
+                                    ~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values-hi\strings.xml:86: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="loading">लोड हो रहा है...</string>
+                           ~~~~~~~~~~~~~~~~
+D:\warp cattle breed app\app\src\main\res\values\strings.xml:86: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="loading">Loading...</string>
+                           ~~~~~~~~~~
+
+   Explanation for issues of type "TypographyEllipsis":
+   You can replace the string "..." with a dedicated ellipsis character,
+   ellipsis character (u2026, &#8230;). This can help make the text more
+   readable.
+
+   https://en.wikipedia.org/wiki/Ellipsis
+
+D:\warp cattle breed app\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml:2: Warning: The application adaptive icon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+D:\warp cattle breed app\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml:2: Warning: The application adaptive roundIcon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "MonochromeLauncherIcon":
+   If android:roundIcon and android:icon are both in your manifest, you must
+   either remove the reference to android:roundIcon if it is not needed; or,
+   supply the monochrome icon in the drawable defined by the android:roundIcon
+   and android:icon attribute.
+
+   For example, if android:roundIcon and android:icon are both in the
+   manifest, a launcher might choose to use android:roundIcon over
+   android:icon to display the adaptive app icon. Therefore, your themed
+   application iconwill not show if your monochrome attribute is not also
+   specified in android:roundIcon.
+
+0 errors, 125 warnings
