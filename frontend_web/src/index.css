@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light only;
+}
+
+body {
+  @apply bg-surface;
+}
+
+/* Use requested theme color for native form controls */
+input[type="radio"], input[type="checkbox"] { accent-color: #124C60; }
+
+@layer base {
+  button {
+    @apply bg-primary-500 hover:bg-primary-600 text-white rounded-xl shadow-soft h-14 px-7 text-lg font-medium disabled:opacity-60 disabled:cursor-not-allowed;
+  }
+}
+
+.container-max {
+  @apply w-full max-w-none mx-auto px-4 md:px-6 lg:px-8;
+}
+
+.card {
+  @apply bg-card rounded-xl shadow-soft border border-slate-100;
+}
