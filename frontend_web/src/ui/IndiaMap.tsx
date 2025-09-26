@@ -2,10 +2,8 @@ import { ComposableMap, Geographies, Geography } from 'react-simple-maps'
 import { useMemo } from 'react'
 import { Tooltip } from 'react-tooltip'
 
-// You can replace this with a local file later if you have a preferred source.
-// This URL should point to a GeoJSON/TopoJSON of India states (Admin-1 level).
 const INDIA_GEO_URL =
-  'https://cdn.jsdelivr.net/npm/india-geojson@1/india_states.geojson'
+  'https://raw.githubusercontent.com/Subhash9325/GeoJson-Data-of-Indian-States/master/Indian_States'
 
 type IndiaMapProps = {
   data: { id: string; value?: number; range?: string }[] // id = state name
@@ -28,7 +26,7 @@ export default function IndiaMap({ data, selectedState, onSelectState }: IndiaMa
   }, [data])
 
   const color = (v?: number) => {
-    if (v == null) return '#E5F4EA' // very light
+    if (v == null) return '#E5F4EA'
     if (v >= 85) return '#1f9254'
     if (v >= 75) return '#2bb673'
     if (v >= 65) return '#66cdaa'
@@ -41,15 +39,15 @@ export default function IndiaMap({ data, selectedState, onSelectState }: IndiaMa
       <ComposableMap projectionConfig={{ scale: 900 }} data-tip="" style={{ width: '100%', height: '100%' }}>
         <Geographies geography={INDIA_GEO_URL}>
           {({ geographies }: any) =>
-            (geographies as any[]).map((geo: any) => {
-              const name = (geo.properties as any).st_nm || (geo.properties as any).name || ''
+            geographies.map((geo: any) => {
+              const name = geo.properties.NAME_1 || ''
               const v = valueById.get(name)
-              const isSelected = selectedState && selectedState === name
+              const isSelected = selectedState === name
               return (
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
-                  onClick={() => onSelectState(name === selectedState ? '' : name)}
+                  onClick={() => onSelectState(isSelected ? '' : name)}
                   data-tooltip-id="india-tip"
                   data-tooltip-content={`${name}: ${rangeById.get(name) ?? 'NA'}`}
                   style={{
